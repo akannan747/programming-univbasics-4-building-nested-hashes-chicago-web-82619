@@ -41,7 +41,7 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-    {
+  {
     railroads: {
                  pieces: 4, 
                  rent_in_dollars: {
@@ -51,10 +51,10 @@ def monopoly_with_fourth_tier
                                     four_pieces_owned: 200
                                   }, 
                  names: {
-                          reading_railroad: {"mortgage_value": '$100'}, 
-                          pennsylvania_railroad: {"mortgage_value": '$100'}, 
-                          b_and_o_railroad: {"mortgage_value": '$100'}, 
-                          shortline_railroad: {"mortgage_value": '$100'}
+                          reading_railroad: {"mortgage_value" => '$100'}, 
+                          pennsylvania_railroad: {"mortgage_value" => '$100'}, 
+                          b_and_o_railroad: {"mortgage_value" => '$100'}, 
+                          shortline_railroad: {"mortgage_value" => '$100'}
                         }
                }
   }
